@@ -14,3 +14,9 @@ $(document).ready(function(){
    } 
   });
 });
+
+// tooltip para agregar un pequeño texto a las imagenes de las card
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+  
