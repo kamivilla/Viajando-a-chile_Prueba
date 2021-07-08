@@ -1,17 +1,17 @@
 /* Body */
-
 body {
     background-color: #000000;
     color: #fff;
  }
 
  /* General */
- .quienesSomos hr, .destacados hr {
-    border: 2px solid #3CC4D4;
+
+ .quienesSomos hr, .destacados hr, .contacto hr {
+    background-color: #3CC4D4;
+    height: 0.5px;
  }
 
-/* Sección quienes somos */
-
+/* Sección Quienes somos */
 
  .quieneSomos__icon {
      background-color: #3CC4D4;
@@ -22,16 +22,11 @@ body {
      line-height: 60px;
  }
 
- /*  card */
-
+ /*  seccion Destacados */
  .card {
      background-color: #3CC4D4;
+     border: 1px solid white;
  }
  .card img {
      height: 175px;
- }
-
- @media (min-width: 768px) { 
-
-  
  }
