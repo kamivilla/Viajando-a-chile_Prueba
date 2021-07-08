@@ -30,3 +30,15 @@ body {
  .card img {
      height: 175px;
  }
+
+ /* Footer */
+ footer {
+     background-color: #3CC4D4;
+ }
+
+footer p {
+     font-size: 30px;
+ }
+footer i {
+    font-size: 40px;
+}

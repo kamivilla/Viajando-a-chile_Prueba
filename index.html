@@ -18,9 +18,9 @@
 <body>
     <header class="header__container">
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top text-white">
-            <div class="container">
+            <div class="container-md">
                 <a class="navbar-brand" href="#">
-                    <img src="assets/img/viajes.svg" width="30" height="30" alt=""> Viajes Chile
+                    <img src="assets/img/viajes.svg" width="40" height="40" alt=""> Viajes Chile
                   </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -65,7 +65,7 @@
           </div>
     </header>
 
-    <section id="quienesSomos" class="quienesSomos container text-center d-none d-sm-block">
+    <section id="quienesSomos" class="quienesSomos container text-center d-none d-md-block">
         <h2 class="mt-5 mb-4">¿Quienes somos?</h2>
         <hr>
         <div class="row mt-5">
@@ -138,11 +138,21 @@
         <h2 class="mt-5 mb-4 text-center">Contacto</h2>
         <hr class="text-center">
         <!-- Formulario con Typeform -->
-        <div class="typeform-widget" data-url="https://form.typeform.com/to/cfxmIKMA?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        <div class="typeform-widget mt-5" data-url="https://form.typeform.com/to/cfxmIKMA?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
     </section>
 
-    <footer class="footer container">
-        
+    <footer class="footer container-fluid py-3 pt-md-4 mt-5">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <p class="text-center">VIAJES CHILE</p>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+                <i class="fab fa-github-square mx-2"></i>
+                <i class="fab fa-linkedin mx-2"></i>
+                <i class="fab fa-twitter-square mx-2"></i>
+                <i class="fab fa-facebook-square mx-2"></i>
+            </div>
+        </div>
     </footer>
     <!-- Jquery 3.6.0 -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
