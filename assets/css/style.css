@@ -1,5 +1,37 @@
+/* Body */
 
-/* header */
-.header {
-    min-height: 100vh;
-}
+body {
+    background-color: #000000;
+    color: #fff;
+ }
+
+ /* General */
+ .quienesSomos hr, .destacados hr {
+    border: 2px solid #3CC4D4;
+ }
+
+/* Sección quienes somos */
+
+
+ .quieneSomos__icon {
+     background-color: #3CC4D4;
+     height: 60px;
+ }
+ .quieneSomos__icon i {
+     font-size: 30px;
+     line-height: 60px;
+ }
+
+ /*  card */
+
+ .card {
+     background-color: #3CC4D4;
+ }
+ .card img {
+     height: 175px;
+ }
+
+ @media (min-width: 768px) { 
+
+  
+ }
