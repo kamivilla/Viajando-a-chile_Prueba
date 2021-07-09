@@ -1,50 +1,58 @@
 /* Body */
 body {
-    background-color: #000000;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
- }
- h2 {
-     font-weight: 700;
- }
+  background-color: #000000;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+h2 {
+  font-weight: 700;
+}
 
- /* General */
+/* General */
 
- .quienesSomos hr, .destacados hr, .contacto hr {
-    background-color: #3CC4D4;
-    height: 0.5px;
- }
+.quienesSomos hr,
+.destacados hr,
+.contacto hr {
+  background-color: #3cc4d4;
+  height: 0.5px;
+}
 
 /* Sección Quienes somos */
 
- .quieneSomos__icon {
-     background-color: #3CC4D4;
-     height: 60px;
- }
- .quieneSomos__icon i {
-     font-size: 30px;
-     line-height: 60px;
- }
+.quieneSomos__icon {
+  background-color: #3cc4d4;
+  height: 60px;
+}
+.quieneSomos__icon i {
+  font-size: 30px;
+  line-height: 60px;
+}
 
- /*  seccion Destacados */
- .card {
-     background-color: #3CC4D4;
-     border: 1px solid white;
- }
- .card img {
-     height: 175px;
- }
+/*  seccion Destacados */
+.card {
+  background-color: #3cc4d4;
+  border: 1px solid white;
+}
+.card img {
+  height: 175px;
+}
 
- /* Footer */
- footer {
-     background-color: #3CC4D4;
- }
-footer a, footer a:hover {
-   color: #fff;
+/* Sección contacto */
+.typeform-widget {
+  height: 300px;
+}
+
+/* Footer */
+footer {
+  background-color: #3cc4d4;
+}
+footer a,
+footer a:hover {
+  color: #fff;
 }
 footer p {
-     font-size: 30px;
- }
+  font-size: 30px;
+}
 footer i {
-    font-size: 40px;
+  font-size: 40px;
 }
